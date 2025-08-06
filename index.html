@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>афродет <3</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>УКРОТИТЕЛЬ АФРОЗАКОВ</h2>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+    </div>
+    <div class="game-details">
+        <span class="score">счет: 0</span>
+        <span class="high-score">рекррд: 0</span>
+    </div>
+
+    <div id="gameOverScreen" class="hidden">
+        <div class="game-over-box">
+            <h2>АФРОЗАН ПОБЕДИЛ</h2>
+            <p>счет: <span id="finalScore">0</span></p>
+            <button id="restartButton">попробовать еще раз</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
